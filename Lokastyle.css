@@ -115,10 +115,26 @@ caption{
 }
 img, video, audio{
 	max-width: 100%;
-	height: auto;
-	text-align: center;	
-	display: block;
+	text-align: center;
 }
+/*Mobile skjáir 480px*/
+@media screen and(min-width: 30em){
+}
+
+/*Spjald skjáir 760px*/
+@media screen and(min-width: 48em){
+}
+
+/*Tölvu skjáir  960px*/
+@media screen and(min-width: 60em){
+    body{
+        max-width: 60em; /*960px*/
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+
 table tr td{
 	border-collapse: collapse;
 	border: 2px solid black;
